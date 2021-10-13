@@ -1,0 +1,47 @@
+.main {
+  margin: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 40%;
+  color: purple;
+  margin-left: 70px;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  margin-left: 70px;
+}
+input {
+  height: 30px;
+  width: 500px;
+}
+input:focus-visible {
+  outline: none;
+}
+button {
+  height: 36px;
+  width: 200px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(71, 182, 71);
+  border: 1px solid rgb(71, 182, 71);
+}
+button:hover {
+  color: rgb(71, 182, 71);
+  background-color: #fff;
+  box-shadow: 2px 2px 2px gray;
+}
+.clear {
+  position: absolute;
+  top: 60%;
+  margin-left: 70px;
+  background-color: black;
+  border-color: #000;
+}
+.clear:hover {
+  color: #000;
+}
